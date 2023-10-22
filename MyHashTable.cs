@@ -8,7 +8,7 @@ using System.Security.Cryptography;
 namespace home_HashTable
 {
     internal class MyHashTable
-    { // dictionary, возможно, в разы облегчили написание, но вы их не запрещали!
+    { // dictionary, возможно, в разы облегчил написание, но вы его не запрещали!
         private Dictionary<int, Dictionary<string, int>> _hashtable = new Dictionary<int, Dictionary<string, int>>{};
 
         public void Add(string key, int value)
